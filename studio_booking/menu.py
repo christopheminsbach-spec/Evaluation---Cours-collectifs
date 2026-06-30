@@ -1,5 +1,8 @@
 # menu.py
 
+# -----------------------------
+# Affiche le menu principal
+# -----------------------------
 def afficher_menu():
     print("\n" + "=" * 40)
     print("      STUDIO BOOKING MANAGER")
@@ -13,8 +16,11 @@ def afficher_menu():
     print("=" * 40)
 
 
+# -----------------------------
+# Affiche les informations
+# d'un seul cours
+# -----------------------------
 def afficher_cours(course):
-    """Affiche un cours."""
 
     print(f"\nID : {course.id}")
     print(f"Cours : {course.name}")
@@ -27,21 +33,28 @@ def afficher_cours(course):
     print("-" * 40)
 
 
+# -----------------------------
+# Affiche tous les cours
+# -----------------------------
 def afficher_liste_cours(courses):
-    """Affiche tous les cours."""
 
+    # Vérifie si la liste est vide
     if not courses:
         print("\nAucun cours enregistré.")
         return
 
     print("\n===== LISTE DES COURS =====")
 
+    # Parcourt chaque cours et l'affiche
     for course in courses:
         afficher_cours(course)
 
 
+# -----------------------------
+# Affiche uniquement les cours
+# dont toutes les places sont prises
+# -----------------------------
 def afficher_cours_complets(courses):
-    """Affiche uniquement les cours complets."""
 
     if not courses:
         print("\nAucun cours complet.")
@@ -57,7 +70,9 @@ def afficher_cours_complets(courses):
         print("-" * 40)
 
 
+# -----------------------------
+# Affiche un message utilisateur
+# (succès, erreur, information)
+# -----------------------------
 def afficher_message(message):
-    """Affiche un message."""
-
     print(f"\n{message}")
