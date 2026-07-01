@@ -11,13 +11,13 @@ Ce fichier :
 """
 
 # Création de la base de données
-from studio_booking.studio_booking_modernev2.database import Base, engine
+from database import Base, engine
 
 # Fonction de remplissage automatique
-from studio_booking.studio_booking_modernev2.seed import seed
+from seed import seed
 
 # Fonctions d'affichage
-from studio_booking.studio_booking_modernev2.menu import (
+from menu import (
     afficher_menu,
     afficher_liste_cours,
     afficher_cours_complets,
@@ -25,7 +25,7 @@ from studio_booking.studio_booking_modernev2.menu import (
 )
 
 # Fonctions CRUD
-from studio_booking.studio_booking_modernev2.crud import (
+from crud import (
     create_course,
     get_courses,
     register,

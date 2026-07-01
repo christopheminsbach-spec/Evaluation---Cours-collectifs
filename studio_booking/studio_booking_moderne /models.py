@@ -14,7 +14,7 @@ from sqlalchemy import String, Integer, Float
 from sqlalchemy.orm import Mapped, mapped_column
 
 # Classe de base créée dans database.py
-from studio_booking.studio_booking_modernev2.database import Base
+from database import Base
 
 
 class Course(Base):

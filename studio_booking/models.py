@@ -1,5 +1,5 @@
 from sqlalchemy import Column, Integer, String, Float
-from studio_booking.studio_booking_modernev2.database import Base
+from database import Base
 
 class Course(Base):
     __tablename__ = "courses"

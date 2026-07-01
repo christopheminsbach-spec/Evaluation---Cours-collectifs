@@ -1,5 +1,5 @@
-from studio_booking.studio_booking_modernev2.database import SessionLocal
-from studio_booking.studio_booking_modernev2.models import Course
+from database import SessionLocal
+from models import Course
 
 def seed():
     session = SessionLocal()
