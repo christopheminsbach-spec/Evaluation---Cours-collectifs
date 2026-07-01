@@ -1,8 +1,8 @@
-from database import Base, engine
-from seed import seed
+from studio_booking.studio_booking_modernev2.database import Base, engine
+from studio_booking.studio_booking_modernev2.seed import seed
 
 # Fonctions d'affichage
-from menu import (
+from studio_booking.studio_booking_modernev2.menu import (
     afficher_menu,
     afficher_liste_cours,
     afficher_cours_complets,
@@ -10,7 +10,7 @@ from menu import (
 )
 
 # Fonctions CRUD utilisant SQLAlchemy ORM
-from crud import (
+from studio_booking.studio_booking_modernev2.crud import (
     create_course,
     get_courses,
     register,

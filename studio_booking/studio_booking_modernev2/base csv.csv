@@ -1,0 +1,13 @@
+id,name,coach,capacity,registered_count,price
+1,Yoga,Emma,12,6,30.0
+4,Cardio Boxing,Sarah,20,2,45.0
+5,Stretching,Chloé,8,1,20.0
+6,Danse,Valerie,23,0,32.0
+7,Boxe,Angus,34,0,50.0
+8,Gime,Leon,42,0,34.0
+9,saut en hauteur,valentin,34,0,23.0
+10,saut en longueur,joe,23,0,21.0
+11,hiit,Thomas,23,0,15.0
+12,zumba,sofia,34,0,45.0
+13,Circuit Training,Hugo,15,0,34.0
+14,Gainage,Lucas,10,0,37.5
